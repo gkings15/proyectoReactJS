@@ -2,9 +2,9 @@
 
 Proyecto realizado en base a API Context + Hooks.
 
-## Available Scripts
+## API utilizada
 
-In the project directory, you can run:
+https://rapidapi.com/theapiguy/api/free-nba?endpoint=apiendpoint_803ecac3-bd2c-46ba-ab85-d432f3e4d313
 
 ### `yarn start`
 
