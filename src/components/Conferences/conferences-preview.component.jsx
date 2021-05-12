@@ -3,7 +3,13 @@ import { withRouter } from "react-router-dom";
 
 import "./conferences-preview.styles.scss";
 
-const ConferencesPreview = ({ title, conferenceLogo, history, linkUrl, match }) => (
+const ConferencesPreview = ({
+  title,
+  conferenceLogo,
+  history,
+  linkUrl,
+  match,
+}) => (
   <div
     className="conferences-preview"
     onClick={() => history.push(`${match.url}conference/${linkUrl}`)}

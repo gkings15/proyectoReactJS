@@ -1,19 +1,27 @@
 import React, { Fragment, useContext } from "react";
-import { PlayersContext } from "./../../contexts/PlayersContext";
+import { DetailContext } from "../../contexts/DetailContext";
 import Grid from "@material-ui/core/Grid";
 import ProgressBar from "./../../components/Common/ProgressBar/ProgressBar.component";
 import CollectionInfo from "./../../components/Collection/CollectionInfo/CollectionInfo.component";
-import Player from "./../../components/Players/Player/Player.component";
+import Players from "./../../components/Players/Players/Players.component";
+import ErrorBoundary from "./../../components/Common/ErrorBoundary/ErrorBoundary.component";
 
 const TeamsDetail = () => {
-  const { doneFetch, team, doneFetchPlayers, players } = useContext(PlayersContext);
+  const { doneFetch, team, doneFetchPlayers, players } = useContext(
+    DetailContext
+  );
   return (
     <Fragment>
-      {doneFetch && doneFetchPlayers ? (
+      {doneFetch &&
+      doneFetchPlayers &&
+      Object.entries(team).length &&
+      Object.entries(players).length ? (
         <Fragment>
           <CollectionInfo item={team} />
           <Grid container spacing={3}>
-            <Player players={players} />
+            <ErrorBoundary>
+              <Players players={players} />
+            </ErrorBoundary>
           </Grid>
         </Fragment>
       ) : (

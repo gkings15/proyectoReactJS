@@ -1,98 +1,153 @@
 body {
-    background: #000000;
-    background-image: url('./../images/backgound-image.jpg');
-    background-image: linear-gradient(167deg, rgba(0,0,0,0.48783263305322133) 0%, rgba(0,0,0,1) 44%, rgba(0,0,0,1) 100%), url('./../images/backgound-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #ffffff
-  }
-  
-  .main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .text-white {
-    color: white;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .font-weight-bold {
-    font-weight: bold;
-  }
-  
-  .w-100 {
-    width: 100%;
-  }
-  
-  .h-100 {
-    height: 100%;
-  }
-  
-  .mb-0 {
-    margin-bottom: 0;
-  }
-  
-  .mt-0 {
-    margin-top: 0;
-  }
-  
-  .btn-primary {
-    background-color: #8b0000!important;
-    color: white!important;
-  }
-  
-  .btn-primary:hover {
-    background-color: #680303!important;
-  }
-  
-  .buttonPrimary,
-  .message,
-  .progressBar {
-    margin: 10px;
-  }
-  
-  .buttonPrimary,
-  .progressBar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .message,
-  .defaultPaper {
-    text-align: center;
-  }
+  background: #000000;
+  background-image: url("./../images/backgound-image.jpg");
+  background-image: linear-gradient(
+      167deg,
+      rgba(0, 0, 0, 0.48783263305322133) 0%,
+      rgba(0, 0, 0, 1) 44%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("./../images/backgound-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
 
-  .card_w{
-    height: 100%;
-    width: 100%;
-    color: rgba(0, 0, 0, 0.87);
-    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    background-color: #fff;
-    background: #000000;
-    background-image: url('https://i.ibb.co/7RcFWzB/west-conference-logo.png');
-    background-image: linear-gradient(-40deg, rgba(0,0,0,0.48783263305322133) 0%, rgba(0,0,0,1) 44%, rgba(0,0,0,1) 100%), url('https://i.ibb.co/7RcFWzB/west-conference-logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .card_e{
-    height: 100%;
-    width: 100%;
-    color: rgba(0, 0, 0, 0.87);
-    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    background-color: #fff;
-    background: #000000;
-    background-image: url('https://i.ibb.co/4P1r9ZC/east-conference-logo.png');
-    background-image: linear-gradient(-40deg, rgba(0,0,0,0.48783263305322133) 0%, rgba(0,0,0,1) 44%, rgba(0,0,0,1) 100%), url('https://i.ibb.co/4P1r9ZC/east-conference-logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.btn-primary {
+  background-color: #8b0000 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #680303 !important;
+}
+
+.buttonPrimary,
+.message,
+.progressBar {
+  margin: 10px;
+}
+
+.buttonPrimary,
+.progressBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message,
+.defaultPaper {
+  text-align: center;
+}
+
+.card_w {
+  height: 100%;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+  background: #000000;
+  background-image: url("https://i.ibb.co/7RcFWzB/west-conference-logo.png");
+  background-image: linear-gradient(
+      -150deg,
+      rgba(0, 0, 0, 0.48783263305322133) 0%,
+      rgba(0, 0, 0, 1) 44%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://i.ibb.co/7RcFWzB/west-conference-logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_e {
+  height: 100%;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+  background: #000000;
+  background-image: url("https://i.ibb.co/4P1r9ZC/east-conference-logo.png");
+  background-image: linear-gradient(
+      -150deg,
+      rgba(0, 0, 0, 0.48783263305322133) 0%,
+      rgba(0, 0, 0, 1) 44%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://i.ibb.co/4P1r9ZC/east-conference-logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 45px;
+  margin: 25px;
+  position: fixed;
+  bottom: 0;
+  width: 45px;
+}
+
+.modal__close:hover {
+  background-color: #f30c0c;
+  cursor: pointer;
+}
+
+.modal__close-icon {
+  height: 50px;
+  width: 50px;
+  fill: #f30c0c;
+}

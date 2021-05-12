@@ -6,7 +6,6 @@ import CollectionCard from "./../../components/Collection/CollectionCard/Collect
 
 const Teams = () => {
   const { doneFetch, teams, conference } = useContext(TeamsContext);
-  
   return (
     <Fragment>
       <h1 className="text-center">{conference}</h1>

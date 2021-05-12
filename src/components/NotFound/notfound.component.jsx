@@ -9,7 +9,7 @@ const NotFound = () => (
     <div className="main-container">
       <img alt="back" src={notfoundimage} height="80%" width="80%"/>
     </div>
-    <ButtonPrimary type="back" to="/" />
+    <ButtonPrimary type="back" to="/"/>
   </Fragment>
 );
 
